@@ -63,29 +63,7 @@ The form asks for the **12 most important features** (based on feature importanc
 
 **Output:** A predicted label (*Likely to Leave* / *Likely to Stay*) along with the model's probability score.
 
-## Setup & Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/KhyathiNoothi/Emplyoee-Attrition-Prediction.git
-cd Emplyoee-Attrition-Prediction
-```
-
-2. Install dependencies:
-```bash
-pip install flask pandas numpy scikit-learn xgboost joblib
-```
-
-3. Run the Flask app:
-```bash
-cd backend
-python app.py
-```
-
-4. Open your browser and go to:
-```
-http://127.0.0.1:5000
-```
 
 ## How It Works (API)
 
@@ -116,6 +94,3 @@ The frontend sends a `POST` request to `/predict` with the 12 form fields as JSO
 - Containerize with Docker for easier deployment
 - Add a proper database to log predictions over time
 
-## Author
-
-Khyathi Noothi
