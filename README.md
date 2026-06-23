@@ -84,13 +84,4 @@ The frontend sends a `POST` request to `/predict` with the 12 form fields as JSO
 
 - **ML:** Python, pandas, NumPy, scikit-learn, XGBoost
 - **Backend:** Flask
-- **Frontend:** HTML, CSS, JavaScript (vanilla, fetch API)
-
-## Future Improvements
-
-- Add input validation (e.g., realistic ranges for income, age) on the frontend
-- Add SHAP-based explanations per prediction
-- Replace static defaults with more representative segment-based defaults
-- Containerize with Docker for easier deployment
-- Add a proper database to log predictions over time
-
+- **Frontend:** HTML, CSS, JavaScript 
